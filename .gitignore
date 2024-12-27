@@ -12,6 +12,6 @@ tsconfig.json
 /configurable-keys.sln
 
 # Plugin files
-/plugin/bin
-/plugin/obj
-/plugin/.vs
+/bin
+/obj
+/.vs
