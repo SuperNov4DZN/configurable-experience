@@ -1,3 +1,5 @@
+[![Github All Releases](https://img.shields.io/github/downloads/SuperNov4DZN/configurable-experience/total.svg)]()
+
 # configurable-experience
 Configure the skill experience multiplier and toggle skill fatigue.
 
