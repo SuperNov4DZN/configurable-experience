@@ -5,7 +5,7 @@ using configurable_experience.Patches;
 
 namespace configurable_experience
 {
-    [BepInPlugin("com.Super.configurable-experience","Configurable Experience", "1.0.0")]
+    [BepInPlugin("com.Super.configurable-experience","Configurable Experience", "1.1.0")]
     public class Plugin : BaseUnityPlugin
     {
         public static ManualLogSource LogSource;
@@ -47,7 +47,7 @@ namespace configurable_experience
             );
 
             LogSource = Logger;
-            LogSource.LogInfo("configurable-experience 1.0.0 loaded!.");
+            LogSource.LogInfo("configurable-experience 1.1.0 loaded!.");
 
             new SkillsMultiplierPatch().Enable();
             new DisableFatiguePatch().Enable();
